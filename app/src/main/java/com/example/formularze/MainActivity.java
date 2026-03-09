@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
                         }else{
                             wymarle = "nie";
                         }
+                        int wiek = seekBar.getProgress();
+                        int waga = Integer.parseInt(editTextWaga.getText().toString());
                         textViewKomunikat.setText("Imię "+name+" Gromada: "+gromada);
                     }
                 }
